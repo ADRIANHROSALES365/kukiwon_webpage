@@ -1,0 +1,275 @@
+/*Reset de estilos por default*/
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+  }
+
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
+p{
+    font-family: "Montserrat", serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+}
+
+h1 {
+ font-weight: bold;
+ font-family: "Lato", serif;
+ font-weight: 900;
+ font-style: italic;
+
+}
+
+.padre{
+    display: flex;
+}
+
+.padre_vertical{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+/*Primera parte header*/
+#div_whois{
+   background-color: #ffff;
+  
+}
+
+#whois_izquierda{
+width: 50%;
+}
+
+#img_kuki{
+    width: 500px;
+    height: 500px;
+}
+
+#img_wtf{
+    width: 735;
+    height: 350px;
+}
+
+#whois_izquierda h1{
+    color: #FCA311;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 70px;
+    }
+    #whois_izquierda p{
+        font-family: "Montserrat", serif;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+    font-size: 25px;
+    color: black;
+    text-align: justify;
+    
+    }
+
+#whois_derecha{
+    width: 50%;
+    margin-left: 130px;
+   }
+
+/*Segunda parte*/
+
+/*Contenedores flexbox o grids segunda parte*/
+#div_high{
+    justify-content: center;
+    align-content: space-between;
+}
+
+#div_high div{
+    width: 33.3%;
+    padding-right: 20px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+/*PARTE MAIN*/
+main{
+    margin-bottom: 50px;
+    background-color: black;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+main h1{
+    color: #FCA311;
+    margin: 0px;
+    margin-top: 40px;
+    margin-bottom: 20PX;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+main p{
+    color: black;
+    margin-bottom: 80px;
+    font-size: 20px;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#div_main1{
+    width: 50%;
+}
+
+#div_main1 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+#boton_main{
+    border-radius: 20px;
+    border: #FCA311 solid 5px;
+    color: #E5E5E5;
+    padding: 10px;
+    
+}
+
+/*#boton_main:hover{
+    border-radius: 20px;
+    border: black solid 5px;
+    background-color: #FCA311;
+    padding: 10px;  
+}*/
+
+#boton_main span{
+    color: black;
+    text-decoration: underline;
+    text-shadow: #FCA311;
+}
+
+
+#div_main2{
+    width: 50%;
+    height: 600px;
+    color: #FCA311;
+    font-weight: bold;
+    text-align: center;
+    font-family: "Lato", serif;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 35px;
+    border-radius: 20px;
+}
+#div_main2 p{
+    color: #E5E5E5;
+    font-weight: bold;
+    font-family: "Lato", serif;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 35px;
+    padding-top: 40px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+/*DIV HIGHLIGHTS*/
+#div_high h2{
+color: #14213D;
+font-weight: bold;
+ font-family: "Lato", serif;
+ font-weight: 900;
+ font-style: italic;
+ font-size: 20px;
+}
+#div_high p{
+    font-size: 20px;
+}
+
+.pc_icon{
+   margin-left: 20px;
+}
+
+/*Div how*/
+
+#div_how{
+    margin-top: 20px;
+    width: 100%;
+    height: 250px;
+    background-color: #E5E5E5;
+}
+#div_how h2{
+    margin-top: 0px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    color: #FCA311;
+    font-size: 30px; 
+    font-family: "Lato", serif;
+    font-weight: 900;
+    font-style: italic; 
+}
+#header_how{
+    text-align: center;
+    width: 100%;
+    height: 10px;
+
+}
+
+#div_how ul {
+  justify-content: space-evenly;
+}
+#div_how ul li{
+    margin-bottom: 5px;
+    list-style: none;
+    color: #14213D;
+    font-weight: bold;
+    font-family: "Lato", serif;
+     font-weight: 800;
+    font-size: 20px;
+}
+
+.lista_horizontal{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#boton_div{
+    text-align: center;
+    height: 50px;
+    
+}
+#boton_contacto{
+    width: 15%;
+    height: 100%;
+    border: black 1px solid;
+    border-radius: 10px;
+    background-color: #E5E5E5;
+}
+#boton_contacto:hover{
+    width: 20%;
+    height: 60px;
+    background-color: #14213D;
+    color: #ffff;
+   
+}
+/*fOOTER*/
+
+footer{
+    justify-content: space-between;
+}
+#copy{
+    font-weight: bold;
+}
+
+#boton_contacto{
+    border: solid black 5px;
+    background-color: black;
+    color: #E5E5E5;
+    font-size: 15px;
+    font-family: "Lato", serif;
+    font-weight: 800;
+}
