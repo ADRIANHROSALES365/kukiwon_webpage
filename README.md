@@ -1,1 +1,1 @@
-Simple page that shows especific information about a service offered by my client. It´s used for be a call to action platform. So It only displays information about the service. Technologies used: #HTML5 #CSS3
+Simple page that shows especific information about a service offered by my client. It was created to be a call to action platform. So It only displays information about the service. Technologies used: #HTML5 #CSS3
